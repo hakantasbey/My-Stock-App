@@ -78,7 +78,7 @@ const Login = () => {
               actions.setSubmitting(false) //? isSubmitting
               //? veriler global state'e aktarilabilir
               //? navigasyon yapılabilir
-              //? tost yapılabilr
+              //? toast yapılabilr
             }}
           >
             {({ handleChange, values, touched, errors, handleBlur }) => (
