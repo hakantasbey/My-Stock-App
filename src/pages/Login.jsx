@@ -76,9 +76,9 @@ const Login = () => {
               login(values)
               actions.resetForm()
               actions.setSubmitting(false) //? isSubmitting
-              //? veriler global state'e aktarilabilir
+              //? veriler global state'e aktırlabilir
               //? navigasyon yapılabilir
-              //? toast yapılabilr
+              //? tost yapılabilr
             }}
           >
             {({ handleChange, values, touched, errors, handleBlur }) => (
